@@ -1,0 +1,40 @@
+# Keep everything local unless it is explicitly allowed below.
+*
+
+# Project prompts and working material must never be published.
+Global-Rules-prompt
+prompt*
+quality-check
+zst4-mockup*/
+docs/
+qa/
+node_modules/
+.openai/
+.sites-runtime/
+.agents/
+.codex/
+.aws/
+*.py
+*.txt
+*.log
+.env*
+
+# Publish only the static website and its directory structure.
+!.gitignore
+!index.html
+!assets/
+!assets/**/
+!assets/**/*.png
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.webp
+!assets/**/*.avif
+!assets/**/*.gif
+!assets/**/*.svg
+!assets/**/*.ico
+!css/
+!css/**/
+!css/**/*.css
+!js/
+!js/**/
+!js/**/*.js

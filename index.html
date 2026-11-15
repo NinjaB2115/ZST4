@@ -1,0 +1,400 @@
+<!doctype html>
+
+<html lang="pl">
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZST Malbork — Twoja przyszłość. Dobry kierunek.</title>
+
+<meta name="description" content="Poznaj projekt strony Zespołu Szkół Technicznych w Malborku. Kierunki kształcenia, życie szkoły i informacje dla uczniów. Statyczny mockup demonstracyjny.">
+
+<meta name="theme-color" content="#1a2542">
+
+<link rel="icon" href="assets/zst-logo.png">
+<link rel="stylesheet" href="css/design-tokens.css">
+<link rel="stylesheet" href="css/style.css">
+
+<script src="js/app.js" defer>
+</script>
+
+</head>
+
+<body>
+<a class="skip-link" href="#content">Przejdź do treści</a>
+<svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+<symbol id="external" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"/></symbol>
+<symbol id="book" viewBox="0 0 24 24"><path d="M12 5v15M12 5C9 3 5 3 2 4v14c3-1 7-1 10 2 3-3 7-3 10-2V4c-3-1-7-1-10 1Z"/></symbol>
+<symbol id="calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18M7 15h3m4 0h3m-10 3h3"/></symbol>
+<symbol id="cap" viewBox="0 0 24 24"><path d="m2 8 10-5 10 5-10 5L2 8Zm4 3v6c4 3 8 3 12 0v-6m4-3v8"/></symbol>
+<symbol id="tools" viewBox="0 0 24 24"><path d="m14 5 5 5M3 21l6-6m-5-9 3-3 14 14-4 4L3 7m12 6 5-5a5 5 0 0 0 1-6l-4 4-3-3 4-4a5 5 0 0 0-6 6L8 9"/></symbol>
+<symbol id="chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M10 10h4v4h-4zM9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"/></symbol>
+<symbol id="file" viewBox="0 0 24 24"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5M8 12h8m-8 4h6"/></symbol>
+<symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+<symbol id="person" viewBox="0 0 24 24"><circle cx="12" cy="4" r="2"/><path d="M3 8h18m-9 0v6m0 0-5 7m5-7 5 7"/></symbol>
+<symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="phone" viewBox="0 0 24 24"><path d="m4 3 4 1 2 5-3 2a14 14 0 0 0 6 6l2-3 5 2 1 4c-1 4-8 1-12-3S1 4 4 3Z"/></symbol>
+</defs></svg>
+
+<div class="utility">
+<div class="container utility-inner"><span class="demo-label"><span></span> Projekt demonstracyjny</span>
+<nav aria-label="Szybkie narzędzia"><button data-info="journal">E-dziennik <svg aria-hidden="true" class="icon"><use href="#external"/></svg></button><button data-info="schedule">Plan lekcji</button><button data-info="changes">Zastępstwa</button><a href="#kontakt">Kontakt</a><button class="utility-a11y" data-open="accessibility"><svg aria-hidden="true" class="icon"><use href="#person"/></svg><span>Dostępność</span></button>
+</nav>
+</div>
+</div>
+
+<header class="site-header">
+<div class="container header-inner"><a class="brand" href="#top" aria-label="ZST Malbork — strona główna"><img src="assets/zst-logo.png" width="64" height="64" alt="Logo ZST"><span>Zespół Szkół Technicznych<small>w Malborku</small></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span class="menu-lines"></span><span>Menu</span></button>
+<nav class="main-nav" id="main-nav" aria-label="Menu główne"><a href="#szkola">O szkole</a><a href="#kierunki">Kierunki kształcenia</a><a href="#aktualnosci">Aktualności</a><a href="#dla-ucznia">Dla ucznia</a><a class="button button-small" href="#rekrutacja">Rekrutacja <svg aria-hidden="true" class="icon"><use href="#external"/></svg></a>
+</nav><button class="icon-button header-search" data-open="search" aria-label="Wyszukaj na stronie"><svg aria-hidden="true" class="icon"><use href="#search"/></svg></button>
+</div>
+</header>
+
+<main id="content">
+
+<section class="hero" id="top" aria-labelledby="hero-title">
+<div class="container hero-grid">
+<div class="hero-copy">
+<p class="eyebrow light"><span class="small-line"></span> Wiedza. Umiejętności. Możliwości.
+</p>
+<h1 id="hero-title">Twoja przyszłość.<br><span>Dobry kierunek.</span>
+</h1>
+<p class="hero-description">Odkryj, co potrafisz. Rozwijaj swoje pasje i zdobądź umiejętności, z którymi zrobisz kolejny krok. Zacznij w ZST w Malborku.
+</p>
+<div class="hero-actions"><a class="button button-white" href="#kierunki">Znajdź swój kierunek <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></a><a class="text-link light-link" href="#szkola">Poznaj naszą szkołę <svg aria-hidden="true" class="icon"><use href="#external"/></svg></a>
+</div>
+<div class="hero-foot"><span class="hero-dot"></span> Technikum <span class="separator">/</span> Szkoła branżowa <span class="separator">/</span> Liceum
+</div>
+</div>
+<div class="hero-visual"><img class="hero-photo" src="assets/hero.webp" alt="Wyposażenie pracowni technicznej ZST w Malborku" width="1000" height="750" fetchpriority="high"><span class="photo-tag"><span></span> Tutaj teoria staje się praktyką</span>
+<div class="photo-caption"><svg aria-hidden="true" class="icon"><use href="#pin"/></svg> Pracownie ZST · fotografia archiwalna
+</div>
+<div class="hero-image-mark" aria-hidden="true">ZST<span>malbork</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="quick-section" aria-labelledby="quick-title">
+<div class="container">
+<div class="quick-panel">
+<div class="quick-heading">
+<h2 id="quick-title">Na skróty
+</h2><span>Wszystko pod ręką</span>
+</div>
+<div class="quick-grid">
+<a href="#rekrutacja" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#cap"/></svg><span>Rekrutacja</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></a>
+<a href="#kierunki" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#chip"/></svg><span>Kierunki kształcenia</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></a>
+<button data-info="schedule" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#calendar"/></svg><span>Plan lekcji</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></button>
+<button data-info="journal" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#book"/></svg><span>E-dziennik</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></button>
+<button data-info="exams" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#cap"/></svg><span>Egzaminy</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></button>
+<button data-info="documents" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#file"/></svg><span>Dokumenty</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></button>
+<button data-info="library" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#book"/></svg><span>Biblioteka</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></button>
+<a href="#kontakt" class="quick-item"><svg aria-hidden="true" class="icon"><use href="#mail"/></svg><span>Kontakt</span><svg aria-hidden="true" class="icon quick-arrow"><use href="#external"/></svg></a>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" id="kierunki" aria-labelledby="courses-title">
+<div class="container">
+<div class="section-heading">
+<div>
+<p class="eyebrow">Znajdź swoje miejsce
+</p>
+<h2 id="courses-title">Różne drogi.<br>Twoje możliwości.
+</h2>
+</div>
+<p class="section-intro">Wybierz szkołę, która pasuje do Ciebie.<br>Rozwijaj umiejętności i planuj przyszłość<br class="desktop-break"> po swojemu.
+</p>
+</div>
+<div class="course-grid">
+
+<article class="course-card">
+<div class="course-top"><span class="course-number">01 /</span><svg aria-hidden="true" class="icon course-icon"><use href="#chip"/></svg>
+</div>
+<p class="card-eyebrow">Wiedza i zawód
+</p>
+<h3>Technikum nr 2
+</h3>
+<p>Połącz naukę przedmiotów ogólnych z przygotowaniem zawodowym. Odkrywaj technologię od praktycznej strony.
+</p><button class="text-link" data-course="technical">Poznaj technikum <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</article>
+
+<article class="course-card">
+<div class="course-top"><span class="course-number">02 /</span><svg aria-hidden="true" class="icon course-icon"><use href="#tools"/></svg>
+</div>
+<p class="card-eyebrow">Praktyka ma znaczenie
+</p>
+<h3>Szkoła branżowa<br>I stopnia
+</h3>
+<p>Postaw na konkretne umiejętności i przygotowanie do zawodu. Ucz się, działając i zdobywając doświadczenie.
+</p><button class="text-link" data-course="vocational">Poznaj szkołę branżową <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</article>
+
+<article class="course-card course-dark">
+<div class="course-top"><span class="course-number">03 /</span><svg aria-hidden="true" class="icon course-icon"><use href="#cap"/></svg>
+</div>
+<p class="card-eyebrow">Własna droga do matury
+</p>
+<h3>IV Liceum<br>Ogólnokształcące
+</h3>
+<p>Rozwijaj zainteresowania, poszerzaj horyzonty i przygotuj się do kolejnego etapu edukacji.
+</p><button class="text-link" data-course="secondary">Poznaj liceum <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</article>
+
+</div>
+<p class="section-note">Prezentacja typów szkół. Szczegółowa oferta i zasady naboru wymagają potwierdzenia.
+</p>
+</div>
+</section>
+
+<section class="section section-tinted" id="aktualnosci" aria-labelledby="news-title">
+<div class="container">
+<div class="section-heading">
+<div>
+<p class="eyebrow">Bądź na bieżąco
+</p>
+<h2 id="news-title">Co słychać w ZST?
+</h2>
+</div>
+<div class="news-filters" role="group" aria-label="Filtruj aktualności"><button class="filter active" data-filter="all" aria-pressed="true">Wszystkie</button><button class="filter" data-filter="events" aria-pressed="false">Wydarzenia</button><button class="filter" data-filter="school" aria-pressed="false">Życie szkoły</button>
+</div>
+</div>
+<p class="sr-only" id="news-status" role="status">Wyświetlono 3 aktualności.
+</p>
+<div class="news-grid">
+
+<article class="news-card" data-category="events"><button class="news-image" data-news="remembrance" aria-label="Otwórz wiadomość: Pamięć, która łączy pokolenia"><img src="assets/remembrance.webp" alt="Uczniowie klas wojskowych podczas obchodów Dnia Pamięci" width="825" height="575" loading="lazy"><span class="image-badge">Wydarzenia</span><span class="image-arrow"><svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button>
+<div class="news-body"><time datetime="2026-11-04">04 listopada 2026</time>
+<h3><button data-news="remembrance">Pamięć, która łączy pokolenia</button>
+</h3>
+<p>Uczniowie klas wojskowych ZST na obchodach Remembrance Day w Malborku.
+</p><button class="text-link" data-news="remembrance">Czytaj więcej <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</div>
+</article>
+
+<article class="news-card" data-category="events"><button class="news-image" data-news="ceremony" aria-label="Otwórz wiadomość: Razem podczas wojewódzkich obchodów"><img src="assets/ceremony.webp" alt="Kadeci podczas uroczystości wojewódzkich" width="825" height="575" loading="lazy"><span class="image-badge">Wydarzenia</span><span class="image-arrow"><svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button>
+<div class="news-body"><time datetime="2026-10-26">26 października 2026</time>
+<h3><button data-news="ceremony">Razem podczas wojewódzkich obchodów</button>
+</h3>
+<p>Przedstawiciele ZST na uroczystości Terenowych Organów Wykonawczych MON.
+</p><button class="text-link" data-news="ceremony">Czytaj więcej <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</div>
+</article>
+
+<article class="news-card" data-category="school"><button class="news-image" data-news="anniversary" aria-label="Otwórz wiadomość: 80 lat wspólnej historii"><img src="assets/anniversary.webp" alt="Uczestnicy obchodów jubileuszu ZST w Malborku" width="1000" height="1000" loading="lazy"><span class="image-badge">Życie szkoły</span><span class="image-arrow"><svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button>
+<div class="news-body"><time datetime="2026-10-14">14 października 2026</time>
+<h3><button data-news="anniversary">80 lat wspólnej historii</button>
+</h3>
+<p>Jubileusz Zespołu Szkół Technicznych. Spotkanie pokoleń, wspomnień i szkolnej społeczności.
+</p><button class="text-link" data-news="anniversary">Czytaj więcej <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</div>
+</article>
+
+</div>
+<p class="source-note">Wybrane wiadomości z <a href="https://zstmalbork.pl/wordpress/" target="_blank" rel="noopener noreferrer">oficjalnej strony szkoły <span class="sr-only">(otwiera się w nowej karcie)</span>↗</a> · treści skrócone na potrzeby mockupu.
+</p>
+</div>
+</section>
+
+<section class="section" id="szkola" aria-labelledby="about-title">
+<div class="container about-grid">
+<figure class="about-visual"><img src="assets/about.webp" alt="Pracownia nauki zawodu w ZST w Malborku" width="1000" height="750" loading="lazy"><figcaption><span>Więcej niż sala lekcyjna.</span><small>Przestrzeń do odkrywania swoich możliwości.</small></figcaption><span class="photo-archive">Fotografia archiwalna · pracownie ZST</span>
+</figure>
+<div class="about-copy">
+<p class="eyebrow">Poznaj nas bliżej
+</p>
+<h2 id="about-title">Szkoła z tradycją.<br>Otwarta na jutro.
+</h2>
+<p>W ZST w Malborku kształcenie ogólne spotyka się z nauką zawodu. To miejsce dla tych, którzy chcą wiedzieć więcej i umieć więcej.
+</p>
+<p>Pracownie, zaplecze sportowe i szkolna społeczność tworzą przestrzeń do nauki, rozwoju i codziennych spotkań.
+</p>
+<div class="about-details">
+<details>
+<summary>Pracownie i praktyczna nauka <span aria-hidden="true">+</span>
+</summary>
+<p>Szkoła udostępnia pracownie do nauki zawodu. Na zdjęciach prezentujemy zaplecze opisane w szkolnym projekcie „Nowe pracownie w ZST”.
+</p>
+</details>
+<details>
+<summary>Internat i zaplecze sportowe <span aria-hidden="true">+</span>
+</summary>
+<p>Szkoła ma internat, basen i boisko. Szczegółowe informacje o korzystaniu z tych miejsc można uzyskać w sekretariacie.
+</p>
+</details>
+<details>
+<summary>Wsparcie na co dzień <span aria-hidden="true">+</span>
+</summary>
+<p>Uczniowie mogą korzystać ze wsparcia pedagoga i psychologa szkolnego. Kontakt z odpowiednią osobą pomoże ustalić sekretariat.
+</p>
+</details>
+</div><a class="text-link about-contact" href="#kontakt">Porozmawiajmy o Twojej przyszłości <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></a>
+</div>
+</div>
+</section>
+
+<section class="section section-tinted student-section" id="dla-ucznia" aria-labelledby="student-title">
+<div class="container student-grid">
+<div>
+<p class="eyebrow">Szkolna codzienność
+</p>
+<h2 id="student-title">Dla ucznia.<br>Dla rodzica.
+</h2>
+<p class="section-intro">Najważniejsze informacje<br>w jednym miejscu.
+</p>
+</div>
+<div class="student-links"><button data-info="schedule"><svg aria-hidden="true" class="icon"><use href="#calendar"/></svg><span><strong>Plan i zastępstwa</strong><small>Zorganizuj swój szkolny dzień</small></span><svg aria-hidden="true" class="icon"><use href="#external"/></svg></button><button data-info="documents"><svg aria-hidden="true" class="icon"><use href="#file"/></svg><span><strong>Dokumenty i druki</strong><small>Ważne informacje pod ręką</small></span><svg aria-hidden="true" class="icon"><use href="#external"/></svg></button><button data-info="support"><svg aria-hidden="true" class="icon"><use href="#person"/></svg><span><strong>Pomoc i wsparcie</strong><small>Jesteśmy blisko, gdy potrzebujesz</small></span><svg aria-hidden="true" class="icon"><use href="#external"/></svg></button><button data-info="library"><svg aria-hidden="true" class="icon"><use href="#book"/></svg><span><strong>Biblioteka</strong><small>Miejsce na nowe horyzonty</small></span><svg aria-hidden="true" class="icon"><use href="#external"/></svg></button>
+</div>
+</div>
+</section>
+
+<section class="section recruitment-section" id="rekrutacja" aria-labelledby="recruitment-title">
+<div class="container">
+<div class="recruitment-panel">
+<div class="recruitment-top">
+<div>
+<p class="eyebrow light">Twój kolejny rozdział
+</p>
+<h2 id="recruitment-title">Zrób pierwszy krok.<br>Wybierz swoją przyszłość.
+</h2>
+</div><button class="button button-white" data-info="admission">Poznaj zasady rekrutacji <svg aria-hidden="true" class="icon"><use href="#arrow"/></svg></button>
+</div>
+<div class="recruitment-steps">
+<div><span>01</span>
+<h3>Poznaj możliwości
+</h3>
+<p>Sprawdź typy szkół i zastanów się, co chcesz rozwijać.
+</p>
+</div>
+<div><span>02</span>
+<h3>Sprawdź zasady
+</h3>
+<p>Potwierdź aktualną ofertę i terminy bezpośrednio w szkole.
+</p>
+</div>
+<div><span>03</span>
+<h3>Przygotuj się
+</h3>
+<p>Dowiedz się, jakie dokumenty będą Ci potrzebne.
+</p>
+</div>
+</div>
+<p class="recruitment-note">Orientacyjna ścieżka kandydata · mockup nie obsługuje składania wniosków.
+</p>
+</div>
+</div>
+</section>
+
+<section class="section gallery-section" id="galeria" aria-labelledby="gallery-title">
+<div class="container">
+<div class="section-heading">
+<div>
+<p class="eyebrow">Nasza społeczność
+</p>
+<h2 id="gallery-title">Tak wygląda życie w ZST.
+</h2>
+</div><span class="gallery-hint"><svg aria-hidden="true" class="icon"><use href="#external"/></svg> Zobacz z bliska</span>
+</div>
+<div class="gallery-grid"><button data-gallery="hero" aria-label="Powiększ zdjęcie pracowni technicznej"><img src="assets/hero.webp" alt="Pracownia techniczna" width="1000" height="750" loading="lazy"><span>Praktyczna strona nauki <svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button><button data-gallery="lab" aria-label="Powiększ zdjęcie zajęć w pracowni"><img src="assets/lab.webp" alt="Nauczyciel przy tablicy podczas zajęć praktycznych" width="1000" height="750" loading="lazy"><span>Nauka przez działanie <svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button><button data-gallery="anniversary" aria-label="Powiększ zdjęcie jubileuszu"><img src="assets/anniversary.webp" alt="Uczestnicy obchodów jubileuszu" width="1000" height="1000" loading="lazy"><span>Wspólne chwile <svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button><button data-gallery="ceremony" aria-label="Powiększ zdjęcie klas wojskowych"><img src="assets/ceremony.webp" alt="Kadeci na uroczystości" width="825" height="575" loading="lazy"><span>Szkolne tradycje <svg aria-hidden="true" class="icon"><use href="#external"/></svg></span></button>
+</div>
+<p class="section-note">Fotografie z archiwum szkoły · pracownie 2021, wydarzenia 2026.
+</p>
+</div>
+</section>
+
+<section class="section contact-section" id="kontakt" aria-labelledby="contact-title">
+<div class="container">
+<div class="contact-heading">
+<div>
+<p class="eyebrow">Jesteśmy tutaj
+</p>
+<h2 id="contact-title">Do zobaczenia w Malborku.
+</h2>
+</div>
+<p>Masz pytania? Zacznij od rozmowy<br>z naszym sekretariatem.
+</p>
+</div>
+<address class="contact-grid">
+<div><svg aria-hidden="true" class="icon"><use href="#pin"/></svg><span><small>Odwiedź nas</small><strong>Plac Gabriela Narutowicza 14</strong><span>82-200 Malbork</span></span>
+</div>
+<div><svg aria-hidden="true" class="icon"><use href="#phone"/></svg><span><small>Zadzwoń do sekretariatu</small><strong>+48 55 647 34 34</strong><span>Informacje dla kandydatów i rodziców</span></span>
+</div>
+<div><svg aria-hidden="true" class="icon"><use href="#mail"/></svg><span><small>Napisz do nas</small><strong>zst@zstmalbork.pl</strong><span>Dane z oficjalnej witryny szkoły</span></span>
+</div>
+</address><a class="text-link contact-source" href="https://zstmalbork.pl/wordpress/kontakt/" target="_blank" rel="noopener noreferrer">Kontakt na oficjalnej stronie <svg aria-hidden="true" class="icon"><use href="#external"/></svg><span class="sr-only">(otwiera się w nowej karcie)</span></a>
+</div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div><a class="brand footer-brand" href="#top"><img src="assets/zst-logo.png" width="64" height="64" alt="Logo ZST"><span>Zespół Szkół Technicznych<small>w Malborku</small></span></a>
+<p>Wiedza, która otwiera możliwości.<br>Umiejętności, które zostają na przyszłość.
+</p>
+</div>
+<nav aria-label="Szkoła — stopka"><span class="footer-title">Twoja szkoła</span><a href="#szkola">O szkole</a><a href="#kierunki">Kierunki kształcenia</a><a href="#rekrutacja">Rekrutacja</a>
+</nav>
+<nav aria-label="Informacje — stopka"><span class="footer-title">Warto wiedzieć</span><a href="#aktualnosci">Aktualności</a><a href="#dla-ucznia">Dla ucznia i rodzica</a><a href="#kontakt">Kontakt</a>
+</nav>
+<div class="footer-demo"><span class="footer-title">Projekt demonstracyjny</span>
+<p>Statyczny mockup strony.<br>Interakcje mają charakter pokazowy.
+</p><button class="text-link light-link" data-info="privacy">Informacje o mockupie <svg aria-hidden="true" class="icon"><use href="#external"/></svg></button>
+</div>
+</div>
+<div class="footer-bottom"><span>© 2026 ZST Malbork · propozycja strony internetowej</span><button data-open="accessibility">Ustawienia dostępności</button><a href="#top">Wróć na górę ↑</a>
+</div>
+</div>
+</footer>
+
+<dialog id="content-dialog" aria-labelledby="dialog-title">
+<div class="dialog-header"><span class="eyebrow">Projekt demonstracyjny</span><button class="icon-button" data-close aria-label="Zamknij okno"><svg aria-hidden="true" class="icon"><use href="#close"/></svg></button>
+</div>
+<div id="dialog-content">
+</div>
+</dialog>
+
+<dialog id="search-dialog" aria-labelledby="search-title">
+<div class="dialog-header"><span class="eyebrow">Wyszukiwanie lokalne</span><button class="icon-button" data-close aria-label="Zamknij wyszukiwanie"><svg aria-hidden="true" class="icon"><use href="#close"/></svg></button>
+</div>
+<h2 id="search-title">Czego szukasz?
+</h2><label for="site-search">Wyszukaj sekcję mockupu</label>
+<div class="search-field"><svg aria-hidden="true" class="icon"><use href="#search"/></svg><input id="site-search" type="search" placeholder="Np. kierunki, kontakt, plan…" autocomplete="off">
+</div>
+<ul id="search-results" class="search-results">
+</ul>
+<p id="search-status" class="section-note" role="status">
+</p>
+</dialog>
+
+<dialog id="accessibility-dialog" aria-labelledby="accessibility-title">
+<div class="dialog-header"><span class="eyebrow">Dostosuj widok</span><button class="icon-button" data-close aria-label="Zamknij ustawienia"><svg aria-hidden="true" class="icon"><use href="#close"/></svg></button>
+</div>
+<h2 id="accessibility-title">Dostępność
+</h2>
+<p>Ustawienia zmieniają wyłącznie widok w tej przeglądarce.
+</p>
+<h3>Rozmiar tekstu
+</h3>
+<div class="settings-buttons"><button class="button button-outline" data-font="down" aria-label="Zmniejsz tekst">A−</button><output id="font-output" aria-live="polite">100%</output><button class="button button-outline" data-font="up" aria-label="Zwiększ tekst">A+</button>
+</div>
+<h3>Motyw
+</h3>
+<div class="settings-buttons"><button class="button button-outline" data-theme-choice="light" aria-pressed="true">Jasny</button><button class="button button-outline" data-theme-choice="dark" aria-pressed="false">Ciemny</button><button class="button button-outline" data-theme-choice="contrast" aria-pressed="false">Wysoki kontrast</button>
+</div><button class="text-link settings-reset" id="settings-reset">Przywróć ustawienia</button>
+</dialog>
+<noscript>
+<p class="noscript">JavaScript jest wyłączony. Nawigacja sekcyjna i informacje kontaktowe działają; dialogi demonstracyjne wymagają JavaScript.
+</p></noscript>
+
+</body>
+</html>
